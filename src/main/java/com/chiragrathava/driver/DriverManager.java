@@ -55,7 +55,8 @@ public class DriverManager {
 
     // When we want to start the browser
     public static void down(){
-        if (getDriver() != null){
+        if (getDriver() != null)
+        {
             driver.quit();
             driver = null;
         }

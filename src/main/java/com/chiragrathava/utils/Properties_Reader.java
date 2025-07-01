@@ -25,5 +25,4 @@ public class Properties_Reader {
         return p.getProperty(key);
 
     }
-
 }
