@@ -9,9 +9,8 @@ public class DashboardPage extends CommonToAll_Page {
 
     WebDriver driver;
 
-    public DashboardPage(WebDriver driver){
-        this.driver = driver;
-    }
+    public DashboardPage(WebDriver driver)
+    { this.driver = driver; }
 
     private By userNameOnDashboard = By.cssSelector("[data-qa='lufexuloga']");
 

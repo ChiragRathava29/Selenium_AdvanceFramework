@@ -42,7 +42,6 @@ public class LoginPage extends CommonToAll_Page {
 
         WaitHelpers.checkVisibility(driver,By.cssSelector("[data-qa='lufexuloga']"));
 
-
     }
 
 }
