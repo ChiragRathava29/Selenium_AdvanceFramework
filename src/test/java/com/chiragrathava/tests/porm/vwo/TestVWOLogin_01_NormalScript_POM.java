@@ -9,7 +9,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class TestVWOLogin_01_NormalScript_POM {
