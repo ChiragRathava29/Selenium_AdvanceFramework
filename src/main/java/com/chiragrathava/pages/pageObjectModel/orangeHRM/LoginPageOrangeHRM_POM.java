@@ -28,7 +28,6 @@ public class LoginPageOrangeHRM_POM extends CommonToAll_Page {
         clickElement(submit_btn);
 
         waitJVM(5000);
-
     }
 
 }

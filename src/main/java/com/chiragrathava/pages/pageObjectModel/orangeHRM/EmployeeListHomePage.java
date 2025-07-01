@@ -17,7 +17,8 @@ public class EmployeeListHomePage extends CommonToAll_Page {
     By userNameOnDashboard = By.xpath("//h6[normalize-space()='PIM']");
 
     // Page Actions
-    public String loggedInUserName(){
+    public String loggedInUserName()
+    {
         waitJVM(5000);
         return getText(userNameOnDashboard);
     }

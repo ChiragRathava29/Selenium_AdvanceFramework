@@ -1,7 +1,6 @@
 package com.chiragrathava.tests.porm.orangeHRM;
 
 import com.chiragrathava.base.CommonToAll_Test;
-import com.chiragrathava.pages.pageFactory.orangeHRM.LoginPage_OrangeHRM_PF;
 import com.chiragrathava.pages.pageObjectModel.orangeHRM.EmployeeListHomePage;
 import com.chiragrathava.pages.pageObjectModel.orangeHRM.LoginPageOrangeHRM_POM;
 import com.chiragrathava.utils.Properties_Reader;
@@ -10,7 +9,6 @@ import io.qameta.allure.Owner;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static com.chiragrathava.driver.DriverManager.driver;
 import static com.chiragrathava.driver.DriverManager.getDriver;
 import static com.chiragrathava.utils.WaitHelpers.waitJVM;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
