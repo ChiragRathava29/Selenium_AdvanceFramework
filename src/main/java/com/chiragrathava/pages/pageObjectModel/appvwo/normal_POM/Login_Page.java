@@ -31,7 +31,7 @@ public class Login_Page {
         driver.findElement(password).sendKeys(pwd);
         driver.findElement(signButton).click();
 
-        // Wait
+         // Wait
 //       /*1 Thread sleep */ WaitHelpers.waitJVM(5000);
         /*2 Explicit wait */ WaitHelpers.checkVisibility(driver,error_message);
 

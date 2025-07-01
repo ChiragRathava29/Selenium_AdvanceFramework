@@ -8,9 +8,8 @@ public class Dashboard_Page {
 
     WebDriver driver;
 
-    public Dashboard_Page(WebDriver driver){
-        this.driver = driver;
-    }
+    public Dashboard_Page(WebDriver driver)
+    { this.driver = driver; }
 
     private By userNameOnDashboard = By.cssSelector("[data-qa='lufexuloga']");
 
